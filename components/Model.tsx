@@ -27,7 +27,7 @@ export default function Model({scale = 2}: ModelProps) {
 
 
 
-    const {actions, clips} = useAnimations(animations, scene)
+    const {actions} = useAnimations(animations, scene)
     const scroll = useScroll();
 
 
