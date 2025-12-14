@@ -34,7 +34,7 @@ export default function Scene(){
 
             <ScrollControls damping={0.2} pages={7}>
 
-                <Model scale={150} />
+                <Model scale={110} />
 
             </ScrollControls>
 
